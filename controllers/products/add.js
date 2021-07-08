@@ -1,4 +1,4 @@
-const { v4 } = require("uuid")
+const { v4 } = require("uuid");
 const  productSchema = require("../../utils/validate/schemas/products")
 
 const products = require("../../data/products")
@@ -9,7 +9,7 @@ const add = (req, res) => {
         res.status(400).json({
             status: "error",
             code: 400,
-            message: "bad validation"
+            message: "bad validationn"
         })
     }
     const newProduct = { ...req.body, _id: v4() }
