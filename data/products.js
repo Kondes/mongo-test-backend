@@ -11,6 +11,11 @@ const products = [
     name: "GeForce RTX 3900",
     price: 90000,
   },
+  {
+    _id: v5(),
+    name: "Sony xm4",
+    price: 10000,
+  },
 ];
 
 module.exports = products;
